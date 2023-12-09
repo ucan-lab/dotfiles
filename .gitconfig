@@ -1,0 +1,30 @@
+[user]
+    name = ucan-lab
+    email = 35098175+ucan-lab@users.noreply.github.com
+[init]
+    defaultBranch = main
+[rebase]
+    updateRefs = true
+[push]
+    default = current
+[fetch]
+    prune = true
+[status]
+    showUntrackedFiles = all
+[core]
+    autocrlf = input
+    filemode = false
+    ignorecase = false
+    pager = delta
+    editor = hx
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true # use n and N to move between diff sections
+    light = false # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+    line-numbers = true
+    side-by-side = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
