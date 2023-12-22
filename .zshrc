@@ -54,7 +54,6 @@ cdf() {
 # 初期設定
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+eval "$(rtx activate zsh)"
 
 . $(brew --prefix)/opt/zsh-autocomplete/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-. $(brew --prefix asdf)/libexec/asdf.sh
-. ${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc
